@@ -1,0 +1,18 @@
+package assi73;
+import java.util.Scanner;
+public class substring2 {
+
+	public static void main(String[] args) {
+		System.out.println("enter first value" );
+		Scanner sc=new Scanner(System.in);
+			int first=sc.nextInt();
+			System.out.println("enter end value" );
+			int end=sc.nextInt();
+		char ans[]={'s','r','i','m','o','u','n','i','k','a'};
+		for(int i=first;i<=end;i++){
+			System.out.println(""+ans[i]);
+		}
+
+	}
+
+}
